@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nebula Studio · креативное агентство</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            background: #0b0b12;
+            font-family: system-ui, 'Segoe UI', monospace;
+            color: #eee;
+            line-height: 1.5;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            padding: 1rem 0;
+            border-bottom: 1px solid #2a2a35;
+        }
+        .logo {
+            font-size: 1.8rem;
+            font-weight: 700;
+            background: linear-gradient(135deg, #fff, #a0a0ff);
+            background-clip: text;
+            -webkit-background-clip: text;
+            color: transparent;
+        }
+        nav a {
+            color: #ccc;
+            text-decoration: none;
+            margin-left: 2rem;
+        }
+        .hero {
+            text-align: center;
+            padding: 5rem 1rem;
+        }
+        .hero h1 {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+        }
+        .btn {
+            display: inline-block;
+            background: #2a2aff;
+            padding: 0.8rem 2rem;
+            border-radius: 40px;
+            color: white;
+            text-decoration: none;
+            margin-top: 2rem;
+        }
+        .grid {
+            display: flex;
+            gap: 2rem;
+            margin: 4rem 0;
+            flex-wrap: wrap;
+        }
+        .card {
+            background: #12121a;
+            padding: 2rem;
+            border-radius: 24px;
+            flex: 1;
+        }
+        footer {
+            text-align: center;
+            padding: 2rem;
+            border-top: 1px solid #2a2a35;
+            margin-top: 3rem;
+        }
+        @media (max-width: 700px) {
+            nav a { margin-left: 1rem; }
+            .hero h1 { font-size: 2rem; }
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <header>
+        <div class="logo">NEBULA</div>
+        <nav>
+            <a href="#">Услуги</a>
+            <a href="#">Кейсы</a>
+            <a href="#">Контакты</a>
+        </nav>
+    </header>
+    <div class="hero">
+        <h1>Создаём цифровые вселенные</h1>
+        <p>Веб-разработка, брендинг, анимация</p>
+        <a href="#" class="btn">Обсудить проект</a>
+    </div>
+    <div class="grid">
+        <div class="card"><h3>Веб-сайты</h3><p>Адаптивные, быстрые, с душой.</p></div>
+        <div class="card"><h3>Анимация</h3><p>Микровзаимодействия, 3D, плавность.</p></div>
+        <div class="card"><h3>Брендинг</h3><p>От айдентики до соцсетей.</p></div>
+    </div>
+    <footer>Nebula Studio — 2026</footer>
+</div>
+</body>
+</html>
